@@ -22,17 +22,9 @@ def is_balanced(exp):
             # Check matching brackets
  
             # ) should match (
-            if char == ')' and top != '(':
+            if (char == ')' and top != '(') or(char == '}' and top != '{') or(char == ']' and top != '['):
                 return False
- 
-            # } should match {
-            if char == '}' and top != '{':
-                return False
- 
-            # ] should match [
-            if char == ']' and top != '[':
-                return False
- 
+            
     # If stack becomes empty
     # all brackets are balanced
     return len(stack) == 0
