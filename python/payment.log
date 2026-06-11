@@ -1,0 +1,10 @@
+2026-06-11 12:34:45,638 -INFO -processing payment101
+2026-06-11 12:34:45,638 -INFO -gateway response:SUCCESS
+2026-06-11 12:34:56,608 -INFO -processing payment101
+2026-06-11 12:34:56,608 -INFO -gateway response:SUCCESS
+2026-06-11 14:04:48,298 -INFO -processing payment 101
+2026-06-11 14:04:48,299 -INFO -gateway response: SUCCESS
+2026-06-11 14:11:07,151 -INFO -processing payment 101
+2026-06-11 14:11:07,151 -INFO -gateway response: SUCCESS
+2026-06-11 14:15:54,192 -INFO -processing payment 101
+2026-06-11 14:15:54,192 -ERROR -payment failed: gateway timeout
